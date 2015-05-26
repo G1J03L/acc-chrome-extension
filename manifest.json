@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Active Curator Companion",
+  "description": "This extension creates a log of websites you've visited, text you've selected, and videos you've watched with the click of a button",
+  //"default_locale": "en",
+  "version": "1.0",
+
+  "browser_action": {
+	"default_title": "Log data",
+    "default_icon": "History.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+	"clipboardRead",
+	"clipboardWrite",
+	"contextMenus",
+	"history",
+	"storage",
+    "https://ajax.googleapis.com/"
+  ]
+}
